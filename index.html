@@ -1,81 +1,43 @@
-<style>
-    body { 
-        font-family: 'Malgun Gothic', '맑은 고딕', Arial, sans-serif; 
-        margin: 40px; 
-        line-height: 1.6; 
-        background-color: #f8f8f8;
-        color: #333;
-    }
-    header { 
-        border-bottom: 3px solid #007bff;
-        padding-bottom: 20px; 
-        margin-bottom: 30px; 
-        text-align: center;
-    }
-    h1 { 
-        color: #1a1a1a; 
-        font-size: 2.2em;
-        margin-bottom: 10px;
-    }
-    h2 {
-        color: #007bff;
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 25px;
-    }
-    p {
-        font-size: 1.1em;
-        color: #555;
-    }
-    
-    /* 🚨 2x2 레이아웃을 위한 핵심 CSS 🚨 */
-    .project-group {
-        display: grid; /* Grid 사용 */
-        grid-template-columns: 1fr 1fr; /* 1:1 비율의 2개 열 생성 */
-        gap: 20px; /* 그리드 셀 간의 간격 */
-    }
-    
-    .project-item { 
-        /* 기존 스타일 수정: grid gap을 사용하므로 margin-bottom 제거 */
-        margin-bottom: 0; 
-        padding: 15px; 
-        border: 1px solid #ddd; 
-        border-left: 5px solid #007bff;
-        border-radius: 8px; 
-        background-color: #ffffff;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .project-item:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-    .project-item a { 
-        text-decoration: none; 
-        color: #1a1a1a; 
-        font-weight: normal;
-        display: block;
-        font-size: 1.1em;
-    }
-    .project-item a strong {
-        font-weight: bold;
-        color: #007bff;
-        margin-right: 5px;
-    }
-    .project-item a:hover {
-        text-decoration: none;
-        color: #0056b3;
-    }
-    hr {
-        border: none;
-        border-top: 1px dashed #ccc;
-        margin: 40px 0;
-    }
-    footer {
-        text-align: center;
-        margin-top: 50px;
-        padding-top: 20px;
-        border-top: 1px solid #eee;
-        color: #777;
-        font-size: 0.9em;
-    }
-</style>
+<body>
+    <header>
+        <h1>정채연의 P5.js 작품 포트폴리오</h1>
+        <p>2025학년도 1학기 P5.js 프로그래밍 과제 모음입니다 (학번: 20231190).</p>
+    </header>
+
+    <section id="project-list-section">
+        <h2>과제 목록 (요구사항 순서: 1, 4 / 2, 3)</h2>
+        
+        <div class="project-group">
+            <div class="project-item">
+                <a href="assignment1/index.html">
+                    <strong>과제 1:</strong> 우산을 쓰고 비를 막고 있지만, 번개를 맞고 있는 동그라미의 모습을 나타낸 추상화입니다.
+                </a>
+            </div>
+            
+            <div class="project-item">
+                <a href="assignment4/index.html">
+                    <strong>과제 4:</strong> 동그라미의 눈, 비 등의 역동적인 모습을 담아냈습니다.
+                </a>
+            </div>
+        </div>
+        
+        <hr> <div class="project-group">
+            <div class="project-item">
+                <a href="assignment2/index.html">
+                    <strong>과제 2:</strong> 윙크를 하고 있는 저의 모습을 담아냈습니다.
+                </a>
+            </div>
+            
+            <div class="project-item">
+                <a href="assignment3/index.html">
+                    <strong>과제 3:</strong> 공부 할 때는 안경을 착용하는 저의 모습을 담아냈습니다.
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 정채연. All rights reserved.</p>
+    </footer>
+</body>
