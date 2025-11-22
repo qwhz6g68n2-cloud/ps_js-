@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정채연의 P5.js 과제 모음 (20231190)</title>
+    <style>
+        body { 
+            font-family: 'Malgun Gothic', '맑은 고딕', Arial, sans-serif; 
+            margin: 40px; 
+            line-height: 1.6; 
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header { 
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+            text-align: center; /* 헤더 텍스트 중앙 정렬 */
+        }
+        h1 { 
+            color: #1a1a1a; 
+            font-size: 2.2em; /* 제목 크기 키움 */
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center; /* 과제 목록 제목 중앙 정렬 */
+            margin-top: 40px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .project-item { /* class 이름을 더 범용적으로 변경 */
+            margin-bottom: 15px; 
+            padding: 15px; 
+            border: 1px solid #ddd; 
+            border-left: 5px solid #007bff;
+            border-radius: 8px; 
+            background-color: #ffffff;
+            transition: transform 0.2s, box-shadow 0.2s; /* 트랜지션 추가 */
+        }
+        .project-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* 그림자 효과 강화 */
+        }
+        .project-item a { 
+            text-decoration: none; 
+            color: #1a1a1a; 
+            font-weight: normal; /* 기본 폰트 굵기 */
+            display: block;
+            font-size: 1.1em;
+        }
+        .project-item a strong { /* 링크 안의 텍스트 굵게 */
+            font-weight: bold; 
+            color: #007bff; /* 과제 번호 강조 색상 */
+            margin-right: 5px;
+        }
+        .project-item a:hover { 
+            text-decoration: none; /* 호버 시 밑줄 제거 */
+            color: #0056b3; 
+        }
+        hr {
+            border: none;
+            border-top: 1px dashed #ccc;
+            margin: 40px 0; /* 여백 더 늘림 */
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>정채연의 P5.js 작품 포트폴리오</h1>
+        <p>2025학년도 1학기 P5.js 프로그래밍 과제 모음입니다 (학번: 20231190).</p>
+    </header>
+
+    <section id="project-list">
+        <h2>과제 목록 (요구사항 순서: 1, 4 / 2, 3)</h2>
+        
+        <div class="project-item">
+            <a href="assignment1/index.html">
+                <strong>과제 1:</strong> 우산을 쓰고 비를 막고 있지만, 번개를 맞고 있는 동그라미의 모습을 나타낸 추상화입니다.
+            </a>
+        </div>
+        
+        <div class="project-item">
+            <a href="assignment4/index.html">
+                <strong>과제 4:</strong> 동그라미의 눈, 비 등의 역동적인 모습을 담아냈습니다.
+            </a>
+        </div>
+        
+        <hr>
+
+        <div class="project-item">
+            <a href="assignment2/index.html">
+                <strong>과제 2:</strong> 윙크를 하고 있는 저의 모습을 담아냈습니다.
+            </a>
+        </div>
+        
+        <div class="project-item">
+            <a href="assignment3/index.html">
+                <strong>과제 3:</strong> 공부 할 때는 안경을 착용하는 저의 모습을 담아냈습니다.
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 정채연. All rights reserved.</p>
+    </footer>
+</body>
+</html>
